@@ -9,6 +9,7 @@
         public Priority Priority { get; set; }
         public bool IsCompleted { get; set; }
         public DateTime CreateDate { get; set; }
+        public User User { get; set; } = null!;
     }
 
     public enum Priority
